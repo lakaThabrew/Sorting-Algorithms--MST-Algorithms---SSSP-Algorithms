@@ -20,6 +20,11 @@ void bubble_sort(vector<int> &arr, int n)
         }
         if (!swapped)
             break;
+        for (int i = 0; i < n; i++)
+        {
+            cout << arr[i] << " ";
+        }
+        cout << "\n";
     }
 }
 
